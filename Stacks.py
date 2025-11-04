@@ -24,16 +24,16 @@ class Stack:
 
 s = Stack()
 
-print("Is empty?", s.is_empty())      # ก่อน push ยังว่างอยู่
+print("Is empty?", s.is_empty()) 
 
-# push ค่า 1–5
+
 for i in range(1, 6):
     s.push(i)
 
 print("Size after push:", s.size())
 print("Top element:", s.peek())
 
-# pop ออกทีละอัน
+
 for _ in range(5):
     print("Pop:", s.pop())
 
